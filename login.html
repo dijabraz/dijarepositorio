@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <script language="JavaScript">
+        function validar(){
+            if((document.login.usuario.value == "admin") && (document.login.senha.value == "123")){
+            return true;
+            } else {
+                alert("Usuário ou Senha incorreto(s)!");
+                return false;
+            }
+}
+ 
+
+    </script>
+</head>
+<body>
+    <h1>Login</h1>
+    
+    <form name="login" action="entrar.html" method="get" onsubmit="return validar()">
+        Usuário: <input type="text" name="usuario" id="usuario" placeholder="Seu usuário"><br>
+        <br>
+        Senha: <input type="password" name="senha" id="senha" placeholder="Sua senha"><br>
+        <br>
+        <input type="submit" action="alert" name="entrar" value="Entrar" id="">
+        <input type="reset" name="limpar" value="Limpar" id="">
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Entrar</title>
+
+    <script>
+    var getUrlParameter = function getUrlParameter(sParam){
+        var sPageUrl = decodeURIComponent(window.location.search.substring(1)),
+            sUrlVariables = sPageUrl.split('&'),//quebra a url a partir de um valor dado
+            sParameterName,
+            i;
+        
+        for(i = 0; i < sUrlVariables.length; i++){
+           sParameterName = sUrlVariables[i].split('=');
+
+           if(sParameterName[0] === sParam){
+               return sParameterName[1] === undefined ? true : sParameterName;
+           } 
+        }
+       return sUrlVariables;         
+    }
+    function isUsuarioLogado(usuario){
+   
+          if(usuario == ''){
+             window.location.replace('erro.html');
+        }
+     
+
+    }
+   isUsuarioLogado(getUrlParameter('usuario'));
+   
+    
+    </script>
+</head>
+<body>
+    <h1>Seja bem vindo usuário!</h1>
+</body>
+</html>

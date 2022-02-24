@@ -1,0 +1,30 @@
+Nome: Khadija Nascimento 
+Data: 15/02
+
+1- O qu/e deve ser levado em conta no desenvolvimento de um sistema de  autenticação?
+R: Saber identificar os ataques de segurança para solucionar os problemas e entender as formas de proteção dos sistemas de autenticação.
+
+2- Cite pelo menos dois tipos de ataques conhecidos aos sistemas de autenticação.
+R: Adivinhar a senha do usuário usando combinações, acessar o local aonde o dispositivo do usuário armazena as senhas.
+
+3- Qual a maior vulnerabilidade existente em um sistema de autenticação que permita o uso da técnica de inva
+são de adivinhação da senha do usuário?
+R:É um ataque que se torna fácil quando não tem mecanismos de segurança adequeados. Mas quando existe, o ataque não tem sucesso.
+
+4- Descreva como é feito o ataque conhecido como ataque de dicionário.
+R: É feito criando um arquivo, com diversas palavras comuns, chamado de "dicionário", e com isso, criminosos  testam as palavras do dicionário para entrar na rede.
+
+5- O que é *LEET*?
+R: Técnica usada para manipular as palavras do ataque de "dicionário", consiste em trocar algumas letras por vogais, números.
+
+6- Qual a principal vantagem do ataque de força bruta?
+R: A grande vantagem é que todas as senhas poderam ser quebradas por esse método, por conta de suas diversas combinações de senhas.
+
+7- Porque o uso de redes wifi públicas não é seguro?
+R: Pois o wifi público não é seguro e não tem a proteção devida. Com isso, o risco de vazar informações e ataques é mais fácil.
+
+8- Como criar uma senha segura?
+R: Adicionando caracteres especias, criando a senha com 12 ou mais caracteres.
+
+9- Detalhe um plano de segurança para uma nova aplicação que você seja responsável por desenvolver.
+R: Usar o mecanismo de segurança para caso o usuário erre mais de duas vezes seja direcionado para outra página impedindo de continuar as tentativas.
